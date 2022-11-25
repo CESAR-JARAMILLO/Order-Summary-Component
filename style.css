@@ -9,7 +9,8 @@
 body {
   background-color: #e0e8ff;
   background-image: url('./images/pattern-background-mobile.svg');
-  background-repeat: no-repeat;
+  /* To prevent the background image from breaking at higher resolutions, repeat-x is used */
+  background-repeat: repeat-x;
   background-size: cover;
   display: flex;
   flex-direction: column;
